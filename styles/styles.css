@@ -1,0 +1,32 @@
+.color-picker {
+  background-color: #ffffffca;
+}
+.h-res {
+  height: 28rem;
+}
+html {
+  font-family: "Arial Nova", Tahoma, sans-serif;
+  scroll-behavior: smooth;
+}
+.hero-bg {
+  background-size: cover;
+  background-image: url("/hero.jpg");
+}
+.quote-bg {
+  background-size: cover;
+  background-image: url("/quote.gif");
+}
+@media (min-width: 1400px) {
+  .h-res {
+    height: 36rem;
+  }
+}
+.topbar {
+  max-height: 0;
+  transition: max-height 0.25s ease-out;
+  overflow: hidden;
+}
+.topbar-open {
+  max-height: 100vh;
+  transition: max-height 0.5s ease-in;
+}
