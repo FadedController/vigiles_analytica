@@ -59,6 +59,11 @@ const MobileNav = (): JSX.Element => {
               Mission
             </li>
           </a>
+          <a href="#contact">
+            <li className="transition cursor-pointer hover:text-gray-700">
+              Contact
+            </li>
+          </a>
         </ul>
       </nav>
       {/* {navState && (

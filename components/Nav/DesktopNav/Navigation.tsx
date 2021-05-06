@@ -9,7 +9,7 @@ const DesktopNav = (): JSX.Element => {
             {/* <img src="logo.png" className="h-20" /> */}
             <Logo />
           </div>
-          <ul className="flex font-normal space-x-8 lg:space-x-14 flex-row flex-1 text-xl justify-end items-center tracking-widest">
+          <ul className="flex font-light space-x-8 lg:space-x-14 flex-row flex-1 text-xl justify-end items-center tracking-wide">
             <a href="#">
               <li className="transition text-blue-900 cursor-pointer hover:text-blue-700">
                 Home
@@ -33,6 +33,11 @@ const DesktopNav = (): JSX.Element => {
             <a href="#our-mission">
               <li className="transition cursor-pointer hover:text-gray-700">
                 Mission
+              </li>
+            </a>
+            <a href="#contact">
+              <li className="transition cursor-pointer hover:text-gray-700">
+                Contact
               </li>
             </a>
           </ul>

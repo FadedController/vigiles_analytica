@@ -7,6 +7,7 @@ import MobileNav from "../components/Nav/MobileNav/MobileNav";
 import Quote from "../components/Quote/Quote";
 import Footer from "../components/Footer/Footer";
 import CarouselArea from "../components/Carousel/Carousel";
+import Contact from "../components/Contact/Contact";
 
 const Index = (): JSX.Element => {
   return (
@@ -25,6 +26,7 @@ const Index = (): JSX.Element => {
       <Blocks />
       <Quote />
       <CarouselArea />
+      <Contact />
       <Footer />
     </div>
   );
