@@ -1,16 +1,22 @@
-.color-picker {
-  background-color: #ffffffca;
+::-webkit-scrollbar {
+  width: 0.25rem;
 }
+
+::-webkit-scrollbar-track {
+  background: rgba(229, 231, 235);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(30, 58, 138);
+  border-radius: 2px;
+}
+
 .h-res {
   height: 28rem;
 }
 html {
   font-family: "Arial Nova", Tahoma, sans-serif;
   scroll-behavior: smooth;
-}
-.hero-bg {
-  background-size: cover;
-  background-image: url("/hero.jpg");
 }
 .quote-bg {
   background-size: cover;

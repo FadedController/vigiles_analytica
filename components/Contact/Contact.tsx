@@ -21,7 +21,7 @@ const Contact = (): JSX.Element => {
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    //formSubmit(form);
+    formSubmit(form);
     handleReset();
   };
 

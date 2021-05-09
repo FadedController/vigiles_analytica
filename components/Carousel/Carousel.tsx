@@ -90,19 +90,10 @@ const CarouselArea = () => {
   return (
     <div className="flex items-center justify-center bg-gray-100">
       <div className="max-w-7xl w-full">
-        <div className="flex flex-col space-y-10 py-24 px-5">
-          <h1 className="text-center text-blue-900 text-4xl font-normal pb-4 uppercase">
+        <div className="flex flex-col space-y-10 py-10 px-5">
+          <h1 className="text-center text-blue-900 text-4xl font-normal uppercase">
             Our Services
           </h1>
-          <p className="text-center font-light text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            omnis doloremque distinctio, blanditiis quas reiciendis laboriosam
-            in quasi exercitationem eius voluptate architecto, mollitia, magnam
-            quis. Eaque sapiente quis quam voluptatum. Lorem ipsum, dolor sit
-            amet consectetur adipisicing elit. Itaque nulla at repellendus ipsum
-            molestiae minima consequuntur vero perferendis dicta esse. Neque
-            quam sapiente odio minus cupiditate magni ex, atque aut.
-          </p>
         </div>
         <div
           className="pb-20 relative"
