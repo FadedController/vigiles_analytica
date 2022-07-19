@@ -125,7 +125,9 @@ const CarouselArea = () => {
               // Delay execution for the refs to be defined
               setTimeout(() => {
                 // Override prevEl & nextEl now that refs are defined
+                // @ts-ignore
                 swiper.params.navigation.prevEl = previousRef.current;
+                // @ts-ignore
                 swiper.params.navigation.nextEl = nextRef.current;
 
                 // Re-init navigation
@@ -158,7 +160,9 @@ const CarouselArea = () => {
               // Delay execution for the refs to be defined
               setTimeout(() => {
                 // Override prevEl & nextEl now that refs are defined
+                // @ts-ignore
                 swiper.params.navigation.prevEl = previousRef.current;
+                // @ts-ignore
                 swiper.params.navigation.nextEl = nextRef.current;
 
                 // Re-init navigation
@@ -191,7 +195,9 @@ const CarouselArea = () => {
               // Delay execution for the refs to be defined
               setTimeout(() => {
                 // Override prevEl & nextEl now that refs are defined
+                // @ts-ignore
                 swiper.params.navigation.prevEl = previousRef.current;
+                // @ts-ignore
                 swiper.params.navigation.nextEl = nextRef.current;
 
                 // Re-init navigation
